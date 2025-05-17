@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>
+        ✈ Flight Route Optimization
+    </title>
+
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<div class="container">
+    <h1>Flight Route Optimization</h1>
+
+    <section>
+        <h3></h3>
+        <input id="cityName" type="text" placeholder="City Name" />
+        <button onclick="addCity()">Add City</button>
+    </section>
+
+    <section>
+        <h3></h3>
+        <input id="fromCity" type="text" placeholder="From City" />
+        <input id="toCity" type="text" placeholder="To City" />
+        <input id="duration" type="number" placeholder="Duration (min)" />
+        <input id="cost" type="number" placeholder="Cost" />
+        <button onclick="addFlight()">Add Flight</button>
+    </section>
+
+    <section>
+        <h3>Show Routes</h3>
+        <button onclick="showRoutes()">Show Routes</button>
+    </section>
+
+    <section>
+        <h3></h3>
+        <input id="startCity" type="text" placeholder="Start City" />
+        <input id="endCity" type="text" placeholder="End City" />
+        <button onclick="findCheapestRoute()">Find Cheapest Route</button>
+        <button onclick="findFastestRoute()">Find Fastest Route</button>
+    </section>
+
+    <pre id="output"></pre>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
