@@ -118,7 +118,6 @@ function findRoute(start, end, mode) {
   );
 }
 
-// --------- Simple Priority Queue Implementation ----------
 class MinPriorityQueue {
   constructor() {
     this.items = [];
